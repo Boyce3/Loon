@@ -29,3 +29,5 @@ DOMAIN, portal.apopcloud.com
 DOMAIN, emby-us-v4.mius.uk
 # 田小瑞
 DOMAIN, emby.txrui.top
+# 飞跃彩虹
+IP-CIDR, 152.53.19.231/32
