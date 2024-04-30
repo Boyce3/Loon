@@ -33,6 +33,6 @@ DOMAIN, emby.txrui.top
 # 飞跃彩虹
 IP-CIDR, 152.53.19.231/32
 # 终点站
-DOMAIN, https://pub1.emby.wtf
-DOMAIN, https://pub2.emby.wtf
-DOMAIN, https://pub3.emby.wtf
+DOMAIN, pub1.emby.wtf
+DOMAIN, pub2.emby.wtf
+DOMAIN, pub3.emby.wtf
