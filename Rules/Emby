@@ -1,4 +1,4 @@
-# 更新时间2024-05-05
+# 更新时间2024-05-06
 
 # tmdb
 DOMAIN, image.tmdb.org
@@ -21,6 +21,7 @@ DOMAIN, emby3.mcjoker.xyz
 DOMAIN-SUFFIX, reddust.link
 # 纸片人小站
 DOMAIN-SUFFIX, embyplus.org
+DOMAIN, gd.9521732.xyz
 # paul_电报服
 DOMAIN, cf.imetyou.top
 # Apop公益服
