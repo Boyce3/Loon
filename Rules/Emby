@@ -1,4 +1,4 @@
-# 更新时间2024-05-06
+# 更新时间2024-05-19
 
 # tmdb
 DOMAIN, image.tmdb.org
@@ -39,3 +39,5 @@ DOMAIN, 7777777.buzz
 DOMAIN, pub1.emby.wtf
 DOMAIN, pub2.emby.wtf
 DOMAIN, pub3.emby.wtf
+# Heisi
+DOMAIN, i109.com
