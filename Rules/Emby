@@ -1,4 +1,4 @@
-# 更新时间2024-06-03
+# 更新时间2024-06-04
 
 # tmdb
 DOMAIN, image.tmdb.org
@@ -41,3 +41,5 @@ DOMAIN, pub3.emby.wtf
 DOMAIN, i109.com
 # 大V影院-Su
 DOMAIN, su.viclub.top
+# 卡戎
+DOMAIN, play.charontv.com
