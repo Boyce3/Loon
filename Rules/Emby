@@ -1,4 +1,4 @@
-# 更新时间2024-06-13
+# 更新时间2024-06-16
 
 # tmdb
 DOMAIN, image.tmdb.org
@@ -34,6 +34,7 @@ DOMAIN, emby-us-v4.mius.uk
 DOMAIN, emby-fr-v6.mius.uk
 # 飞跃彩虹焕新版
 DOMAIN, 581658.best
+DOMAIN, 7777777.buzz
 # 终点站
 DOMAIN, pub1.emby.wtf
 DOMAIN, pub2.emby.wtf
