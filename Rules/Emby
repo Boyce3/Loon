@@ -1,4 +1,4 @@
-# 更新时间2024-07-15
+# 更新时间2024-07-24
 
 # 琴鸟
 DOMAIN, cdn.lyrebirdemby.com
@@ -13,7 +13,6 @@ DOMAIN, film.hovervan.org
 # 未燃
 DOMAIN, free.emby.eu.org
 # 叔服
-DOMAIN, jz.mcjoker.xyz
 DOMAIN, emby3.mcjoker.xyz
 # 江湖
 DOMAIN, jh.happyav.eu.org
@@ -21,6 +20,9 @@ DOMAIN, jh.happyav.eu.org
 DOMAIN-SUFFIX, embyplus.org
 DOMAIN, gd.9521732.xyz
 DOMAIN, chirsemby.top
+# PiliPili
+DOMAIN, emby.pilipiliultra.com
+DOMAIN, stream_pilipili.misakaf.org
 # paul_电报服
 DOMAIN, cf.imetyou.top
 # Apop公益服
