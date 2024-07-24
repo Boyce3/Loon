@@ -49,6 +49,6 @@ DOMAIN-SUFFIX, catlinks.co.uk
 DOMAIN, ehsifohesiohgesfhrioe3.puddingcat.de
 # CC
 DOMAIN, cc.coemn.com
-DOMAIN, yd2.carryz.net
+IP-CIDR, 193.123.252.106/32
 # Nanflix
 DOMAIN, nanflix.net
