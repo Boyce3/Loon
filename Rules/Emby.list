@@ -12,20 +12,20 @@ DOMAIN，pub1.emby.wtf
 DOMAIN，pub2.emby.wtf
 DOMAIN，pub3.emby.wtf
 # 纸片人小站
-DOMAIN后缀，embyplus.org
+DOMAIN-SUFFIX，embyplus.org
 # PiliPili
 DOMAIN，emby.pilipiliultra.com
-DOMAIN：stream_pilipili.misakaf.org
+DOMAIN, stream_pilipili.misakaf.org
 # NMEmby
-DOMAIN：film.hovervan.org
+DOMAIN, film.hovervan.org
 # nyamedia
 DOMAIN，emby.bangumi.ca
 # 树形图
 DOMAIN，789.123456.al
 # 尘烬
-DOMAIN：free.emby.eu.org
+DOMAIN, free.emby.eu.org
 # paul_电报服
-DOMAIN，参见.imetyou.top
+DOMAIN，cf.imetyou.top,emby
 # Apop公益服
 DOMAIN，emby.apopcloud.com
 # 牢大的野兽餐厅
