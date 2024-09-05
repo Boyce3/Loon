@@ -1,0 +1,18 @@
+#!name = 顺丰速运去广告
+#!desc = 移除开屏、首页推广、弹窗、悬浮窗等广告。
+#!author =Boyce3
+#!tag = 去广告
+#!loon_version = 3.2.1(745)
+#!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/shf.png
+#!date = 2024-09-05
+
+[Rewrite]
+^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade url reject-dict
+^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/ url reject-dict
+^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen url reject
+
+[Script]
+http-request ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/queryInfoFlow url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/shunfeng/shunfeng.js
+
+[Mitm]
+hostname = ccsp-egmas.sf-express.com, shopic.sf-express.com
