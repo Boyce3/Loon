@@ -1,0 +1,73 @@
+#!name = 自用去广告
+#!desc = 自用一些APP去广告
+#!author = Boyce3
+#!tag = 去广告
+#!system = iOS, iPadOS, macOS
+#!loon_version = 3.2.1(745)
+#!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/ad.png
+#!date = 2024-09-05 09:53:22
+
+[Rule]
+# 哔哩哔哩
+DOMAIN, upos-sz-staticcos.bilivideo.com, REJECT
+# 作业精灵
+DOMAIN-SUFFIX, beizi.biz, REJECT
+DOMAIN-SUFFIX, dsp-x.jd.com, REJECT
+# 微信公众号
+DOMAIN-SUFFIX, wxs.qq.com, REJECT
+# 小红书
+DOMAIN, fe-static.xhscdn.com, REJECT
+# 小蚕霸王餐
+DOMAIN, sdk.1rtb.net, REJECT
+
+[Rewrite]
+# 360儿童卫士 //ad.life.360.cn
+^https:\/\/ad\.life\.360\.cn\/v2\/app\/advertisement\/config\?sdk_ver url reject-dict
+# 哔哩哔哩 禁用缓存
+(?=resource\?resourceUrl|upos\-sz\-staticcos) url reject
+(?=.*(hdslb\.com.*(\.zip|\.mp4)))^((?!(hdslb\.com\/bfs\/app-static\/)).)*$ url reject
+# 常青藤爸爸 //shared.ivydad.com
+^https:\/\/shared\.ivydad\.com\/api\/audios\/ad\/advertise\/getAdPage\?adLogoHeight url reject-dict
+# 春风摩托 //c.cfmoto.com
+^https:\/\/c\.cfmoto\.com\/cfmotoservermall\/app\/ad url reject-dict
+^https:\/\/c\.cfmoto\.com\/cfmotoservermall\/app\/popwindow url reject-dict
+# 粉象生活 //api.fenxianglife.com
+^https:\/\/api\.fenxianglife\.com\/njia\/index\/popup\/v2 url reject-dict
+# 福田e家 //czyl.foton.com.cn
+^https:\/\/czyl\.foton\.com\.cn\/ehomes-new\/ehomesActivity\/api\/DaimlerEhome\/HomePage\/getStartPic url reject-dict
+# 京东金融 //ms.jr.jd.com
+^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture url reject
+# 京东读书 //jdread-api.jd.com
+^https:\/\/jdread-api\.jd\.com\/jdread\/api\/popup\?app url reject-dict
+# 快对作业 //www.kuaiduizuoye.com, c.kuaiduizuoye.com
+^https:\/\/www\.kuaiduizuoye\.com\/init\/init\/adconfig url reject-200
+^https:\/\/c\.kuaiduizuoye\.com\/adx\/impress url reject-dict
+^https:\/\/adx\.zuoyebang\.com\/adxserver\/ad\/getadmaterial url reject-dict
+^https:\/\/www\.kuaiduizuoye\.com\/pluto\/publish\/checkappupdate url reject-dict
+# NGA论坛 //g1.tagtic.cn
+^https:\/\/g1\.tagtic\.cn\/v3\/ad\/direct url reject-dict
+# 牛听听 //gateway.benewtech.cn
+^https:\/\/gateway\.benewtech\.cn\/resources-app\/app\/startup\/prepage url reject-200
+# 亲宝宝 //api.qbb6.com
+^https?:\/\/api\.qbb6\.com\/ad\/ url reject
+# 上气大众 //api.mos.csvw.com
+^https?:\/\/api\.mos\.csvw\.com\/mos\/app-update\/api\/v1\/app\/update$ url reject-dict
+# 网易大神 //god.gameyw.netease.com
+^https?:\/\/god\.gameyw\.netease\.com\/v\d\/ad\/serving\/(common|app-start) url reject-dict
+# 小红书 禁用缓存 //*.xhscdn.com
+(?=xhscdn.*\.(otf|OTF|ttf|TTF|zip)) url reject
+# 小米运动 //api-mifit-cn3.zepp.com
+^https:\/\/api-mifit-cn3\.zepp\.com\/discovery\/mi\/cards\/startpage_ad url reject-dict
+# 小米有品 //shopapi.io.mi.com
+^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig url reject-dict
+^https:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/reach\/resource url reject-dict
+# 小熊美术 //www.xiaoxiongmeishu.com
+^https:\/\/www\.xiaoxiongmeishu\.com\/api\/home\/v1\/config\/appInit url reject-200
+^https:\/\/www\.xiaoxiongmeishu\.com\/api\/s\/v1\/popup\/createCouponPopup url reject-dict
+# 希沃白板 //edu.seewo.com
+https:\/\/edu\.seewo\.com\/app\/api\/v1\/startPage\/latest   url reject-dict
+# 作业帮 //syh.zybang.com
+^https?:\/\/syh\.zybang\.com\/com\/adx\/ url reject
+
+[Mitm]
+hostname = ad.life.360.cn, shared.ivydad.com, c.cfmoto.com, ms.jr.jd.com, api.fenxianglife.com, czyl.foton.com.cn, jdread-api.jd.com, www.kuaiduizuoye.com, c.kuaiduizuoye.com, adx.zuoyebang.com, g1.tagtic.cn, gateway.benewtech.cn, api.qbb6.com, api.mos.csvw.com, god.gameyw.netease.com, *.xhscdn.com, edu.seewo.com, api-mifit-cn3.zepp.com, shopapi.io.mi.com, www.xiaoxiongmeishu.com, edu.seewo.com, syh.zybang.com
