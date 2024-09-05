@@ -1,55 +1,55 @@
 # 更新时间2024-09-05
 
 # 音乐服
-DOMAIN，music.iuii.org
+DOMAIN,music.iuii.org
 DOMAIN,axk.123456.buzz
 # 琴鸟
-DOMAIN，cdn.lyrebirdemby.com
+DOMAIN,cdn.lyrebirdemby.com
 # 卷毛鼠
-DOMAIN，cf2.jmsooo.com
+DOMAIN,cf2.jmsooo.com
 # 终点站
-DOMAIN，pub1.emby.wtf
-DOMAIN，pub2.emby.wtf
-DOMAIN，pub3.emby.wtf
+DOMAIN,pub1.emby.wtf
+DOMAIN,pub2.emby.wtf
+DOMAIN,pub3.emby.wtf
 # 纸片人小站
-DOMAIN-SUFFIX，embyplus.org
+DOMAIN-SUFFIX,embyplus.org
 # PiliPili
-DOMAIN，emby.pilipiliultra.com
-DOMAIN, stream_pilipili.misakaf.org
+DOMAIN,emby.pilipiliultra.com
+DOMAIN,stream_pilipili.misakaf.org
 # NMEmby
-DOMAIN, film.hovervan.org
+DOMAIN,film.hovervan.org
 # nyamedia
-DOMAIN，emby.bangumi.ca
+DOMAIN,emby.bangumi.ca
 # 树形图
-DOMAIN，789.123456.al
+DOMAIN,789.123456.al
 # 尘烬
-DOMAIN, free.emby.eu.org
+DOMAIN,free.emby.eu.org
 # paul_电报服
-DOMAIN，cf.imetyou.top,emby
+DOMAIN,cf.imetyou.top,emby
 # Apop公益服
-DOMAIN，emby.apopcloud.com
+DOMAIN,emby.apopcloud.com
 # 牢大的野兽餐厅
-DOMAIN，emby-micax-ca-v2.mius.uk
-DOMAIN，emby-mica-us-v1.mius.uk
+DOMAIN,emby-micax-ca-v2.mius.uk
+DOMAIN,emby-mica-us-v1.mius.uk
 # 大V影院
-DOMAIN，su.viclub.top
+DOMAIN,su.viclub.top
 # 飞跃彩虹
-DOMAIN, 581658.best
-DOMAIN, 7777777.buzz
+DOMAIN,581658.best
+DOMAIN,7777777.buzz
 # Heisi
-DOMAIN, i109.com
-DOMAIN, heisi.nekobox.best
-DOMAIN, h1.i109.com
-DOMAIN, h2.i109.com
+DOMAIN,i109.com
+DOMAIN,heisi.nekobox.best
+DOMAIN,h1.i109.com
+DOMAIN,h2.i109.com
 # 叔服
-DOMAIN, emby3.mcjoker.xyz
+DOMAIN,emby3.mcjoker.xyz
 # 卡戎
-DOMAIN, play.charontv.com
+DOMAIN,play.charontv.com
 # StarCat
-DOMAIN-SUFFIX, catlinks.co.uk
-DOMAIN, ehsifohesiohgesfhrioe3.puddingcat.de
+DOMAIN-SUFFIX,catlinks.co.uk
+DOMAIN,ehsifohesiohgesfhrioe3.puddingcat.de
 # CC
-DOMAIN, cc.coemn.com
-IP-CIDR, 193.123.252.106/32
+DOMAIN,cc.coemn.com
+IP-CIDR,193.123.252.106/32
 # Nanflix
-DOMAIN, nanflix.net
+DOMAIN,nanflix.net
