@@ -1431,7 +1431,7 @@ DOMAIN-SUFFIX,appleone.club
 DOMAIN-SUFFIX,appleone.community
 DOMAIN-SUFFIX,appleone.film
 DOMAIN-SUFFIX,appleone.guide
-DOMAIN-SUFFIX,appleone.DOMAIN
+DOMAIN-SUFFIX,appleone.host
 DOMAIN-SUFFIX,appleone.space
 DOMAIN-SUFFIX,appleone.tech
 DOMAIN-SUFFIX,appleone.website
@@ -1597,7 +1597,7 @@ DOMAIN-SUFFIX,imacsources.com
 DOMAIN-SUFFIX,indiaipad.com
 DOMAIN-SUFFIX,ipad.co.kr
 DOMAIN-SUFFIX,ipad.de
-DOMAIN-SUFFIX,ipad.DOMAIN
+DOMAIN-SUFFIX,ipad.host
 DOMAIN-SUFFIX,ipad.wang
 DOMAIN-SUFFIX,ipad3.com
 DOMAIN-SUFFIX,ipadair.cl
@@ -1632,7 +1632,7 @@ DOMAIN-SUFFIX,iphone.com
 DOMAIN-SUFFIX,iphone.com.au
 DOMAIN-SUFFIX,iphone.com.gr
 DOMAIN-SUFFIX,iphone.es
-DOMAIN-SUFFIX,iphone.DOMAIN
+DOMAIN-SUFFIX,iphone.host
 DOMAIN-SUFFIX,iphone.net.gr
 DOMAIN-SUFFIX,iphone.pt
 DOMAIN-SUFFIX,iphone.rs
@@ -1866,8 +1866,8 @@ USER-AGENT,geod*
 USER-AGENT,locationd*
 USER-AGENT,passd*
 USER-AGENT,Music*
-USER-AGENTNews*
-USER-AGENTTV*
+USER-AGENT,AppleNews*
+USER-AGENT,AppleTV*
 USER-AGENT,com.apple.news*
 USER-AGENT,com.apple.trustd*
 USER-AGENT,com.apple.tv*
