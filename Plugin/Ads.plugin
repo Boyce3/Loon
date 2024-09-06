@@ -1,11 +1,11 @@
-#!name = 自用去广告
-#!desc = 自用一些APP去广告
+#!name = 自用去广告合集
+#!desc = 一些自用的APP去广告
 #!author = Boyce3
 #!tag = 去广告
 #!system = iOS, iPadOS, macOS
 #!loon_version = 3.2.1(745)
 #!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/ad.png
-#!date = 2024-09-05 09:53:22
+#!date = 2024-09-06 14:23:00
 
 [Rule]
 # 哔哩哔哩
@@ -68,6 +68,8 @@ DOMAIN, sdk.1rtb.net, REJECT
 https:\/\/edu\.seewo\.com\/app\/api\/v1\/startPage\/latest   url reject-dict
 # 作业帮 //syh.zybang.com
 ^https?:\/\/syh\.zybang\.com\/com\/adx\/ url reject
+# 中国人保//zgrb.epicc.com.cn
+^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/windowsintegration\/getMessage\/v1 url reject-dict
 
 [Mitm]
-hostname = ad.life.360.cn, shared.ivydad.com, c.cfmoto.com, ms.jr.jd.com, api.fenxianglife.com, czyl.foton.com.cn, jdread-api.jd.com, www.kuaiduizuoye.com, c.kuaiduizuoye.com, adx.zuoyebang.com, g1.tagtic.cn, gateway.benewtech.cn, api.qbb6.com, api.mos.csvw.com, god.gameyw.netease.com, *.xhscdn.com, edu.seewo.com, api-mifit-cn3.zepp.com, shopapi.io.mi.com, www.xiaoxiongmeishu.com, edu.seewo.com, syh.zybang.com
+hostname = ad.life.360.cn, shared.ivydad.com, c.cfmoto.com, ms.jr.jd.com, api.fenxianglife.com, czyl.foton.com.cn, jdread-api.jd.com, www.kuaiduizuoye.com, c.kuaiduizuoye.com, adx.zuoyebang.com, g1.tagtic.cn, gateway.benewtech.cn, api.qbb6.com, api.mos.csvw.com, god.gameyw.netease.com, *.xhscdn.com, edu.seewo.com, api-mifit-cn3.zepp.com, shopapi.io.mi.com, www.xiaoxiongmeishu.com, edu.seewo.com, syh.zybang.com, zgrb.epicc.com.cn
