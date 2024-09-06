@@ -2,25 +2,25 @@
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2024-09-06 02:09:29
-# HOST: 268
-# HOST-KEYWORD: 7
-# HOST-SUFFIX: 1549
-# HOST-WILDCARD: 15
+# DOMAIN: 268
+# DOMAIN-KEYWORD: 7
+# DOMAIN-SUFFIX: 1549
+# DOMAIN-WILDCARD: 15
 # IP-CIDR: 10
 # USER-AGENT: 23
 # TOTAL: 1872
-HOST,apps.apple.com,Apple
-HOST,a1.mzstatic.com,Apple
-HOST,a2.mzstatic.com,Apple
-HOST,a3.mzstatic.com,Apple
-HOST,a4.mzstatic.com,Apple
-HOST,a5.mzstatic.com,Apple
-HOST,adcdownload.apple.com,Apple
-HOST,adcdownload.apple.com.akadns.net,Apple
-HOST,amp-api-search-edge.apps.apple.com,Apple
-HOST,amp-api.apps.apple.com,Apple
-HOST,amp-api.media.apple.com,Apple
-HOST,api-edge.apps.apple.com,Apple
+DOMAIN,apps.apple.com,Apple
+DOMAIN,a1.mzstatic.com,Apple
+DOMAIN,a2.mzstatic.com,Apple
+DOMAIN,a3.mzstatic.com,Apple
+DOMAIN,a4.mzstatic.com,Apple
+DOMAIN,a5.mzstatic.com,Apple
+DOMAIN,adcdownload.apple.com,Apple
+DOMAIN,adcdownload.apple.com.akadns.net,Apple
+DOMAIN,amp-api-search-edge.apps.apple.com,Apple
+DOMAIN,amp-api.apps.apple.com,Apple
+DOMAIN,amp-api.media.apple.com,Apple
+DOMAIN,api-edge.apps.apple.com,Apple
 HOST,api-p-ap-c.smoot.apple.com,Apple
 HOST,api-p-ap-d.smoot.apple.com,Apple
 HOST,api-p-ap-e.smoot.apple.com,Apple
@@ -1841,13 +1841,13 @@ HOST-WILDCARD,ipod.*,Apple
 HOST-WILDCARD,macbook.*,Apple
 HOST-WILDCARD,macbookair.*,Apple
 HOST-WILDCARD,macbookpro.*,Apple
-HOST-KEYWORD,apple-support.akadns.net,Apple
-HOST-KEYWORD,apple.com.akadns.net,Apple
-HOST-KEYWORD,apple.com.edgekey.net,Apple
-HOST-KEYWORD,buy.itunes.apple.com,Apple
-HOST-KEYWORD,smp-device,Apple
-HOST-KEYWORD,testflight,Apple
-HOST-KEYWORD,icloud.com.akadns.net,Apple
+DOMAIN-KEYWORD,apple-support.akadns.net,Apple
+DOMAIN-KEYWORD,apple.com.akadns.net,Apple
+DOMAIN-KEYWORD,apple.com.edgekey.net,Apple
+DOMAIN-KEYWORD,buy.itunes.apple.com,Apple
+DOMAIN-KEYWORD,smp-device,Apple
+DOMAIN-KEYWORD,testflight,Apple
+DOMAIN-KEYWORD,icloud.com.akadns.net,Apple
 USER-AGENT,*FindMyiPhone?,Apple
 USER-AGENT,*Music?,Apple
 USER-AGENT,*WeatherFoundation*,Apple
