@@ -14,8 +14,9 @@ DOMAIN,pub3.emby.wtf
 # 纸片人小站
 DOMAIN-SUFFIX,embyplus.org
 # PiliPili
-DOMAIN,emby.pilipiliultra.com
-DOMAIN,stream_pilipili.misakaf.org
+DOMAIN,pilipili.club
+
+
 # NMEmby
 DOMAIN,film.hovervan.org
 # nyamedia
