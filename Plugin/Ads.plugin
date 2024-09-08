@@ -2,10 +2,10 @@
 #!desc = 自用的一些APP去广告
 #!author = Boyce3
 #!tag = 去广告
-#!system = iOS, iPadOS, macOS
+#!system = iOS, iPadOS
 #!loon_version = 3.2.1(745)
 #!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/ad.png
-#!date = 2024-09-06 14:23:00
+#!date = 2024-09-08 15:23:00
 
 [Rule]
 # 哔哩哔哩
@@ -34,7 +34,7 @@ DOMAIN, sdk.1rtb.net, REJECT
 # 粉象生活 //api.fenxianglife.com
 ^https:\/\/api\.fenxianglife\.com\/njia\/index\/popup\/v2 url reject-dict
 # 福田e家 //czyl.foton.com.cn
-^https:\/\/czyl\.foton\.com\.cn\/ehomes-new\/ehomesActivity\/api\/DaimlerEhome\/HomePage\/getStartPic url reject-dict
+^https:\/\/czyl\.foton\.com\.cn\/ehomes-new\/ehomesActivity\/api\/DaimlerEhome\/HomePage\/ url reject-dict
 # 京东金融 //ms.jr.jd.com
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture url reject
 # 京东读书 //jdread-api.jd.com
