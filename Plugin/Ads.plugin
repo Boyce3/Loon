@@ -68,7 +68,7 @@ DOMAIN, sdk.1rtb.net, REJECT
 https:\/\/edu\.seewo\.com\/app\/api\/v1\/startPage\/latest   url reject-dict
 # 作业帮 //syh.zybang.com
 ^https?:\/\/syh\.zybang\.com\/com\/adx\/ url reject
-# 中国人保//zgrb.epicc.com.cn
+# 中国人保 //zgrb.epicc.com.cn
 ^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/windowsintegration\/getMessage\/v1 url reject-dict
 
 [Mitm]
