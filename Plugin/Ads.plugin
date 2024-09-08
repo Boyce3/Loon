@@ -46,10 +46,8 @@ DOMAIN, sdk.1rtb.net, REJECT
 ^https:\/\/www\.kuaiduizuoye\.com\/pluto\/publish\/checkappupdate url reject-dict
 # NGA论坛 //g1.tagtic.cn
 ^https:\/\/g1\.tagtic\.cn\/v3\/ad\/direct url reject-dict
-# 牛听听 //gateway.benewtech.cn, ntt-app.benewtech.cn
+# 牛听听 //gateway.benewtech.cn
 ^https:\/\/gateway\.benewtech\.cn\/resources-app\/app\/startup\/prepage url reject-200
-^https:\/\/ntt-app\.benewtech\.cn\/v6\/user\/1233280727\/messages\/event url reject-dict
-
 # 亲宝宝 //api.qbb6.com
 ^https?:\/\/api\.qbb6\.com\/ad\/ url reject
 # 上气大众 //api.mos.csvw.com
@@ -74,4 +72,4 @@ https:\/\/edu\.seewo\.com\/app\/api\/v1\/startPage\/latest url reject-dict
 ^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/windowsintegration\/getMessage\/v1 url reject-dict
 
 [Mitm]
-hostname = ad.life.360.cn, shared.ivydad.com, c.cfmoto.com, ms.jr.jd.com, api.fenxianglife.com, czyl.foton.com.cn, jdread-api.jd.com, www.kuaiduizuoye.com, c.kuaiduizuoye.com, adx.zuoyebang.com, g1.tagtic.cn, gateway.benewtech.cn, ntt-app.benewtech.cn, api.qbb6.com, api.mos.csvw.com, god.gameyw.netease.com, *.xhscdn.com, edu.seewo.com, api-mifit-cn3.zepp.com, shopapi.io.mi.com, www.xiaoxiongmeishu.com, edu.seewo.com, syh.zybang.com, zgrb.epicc.com.cn
+hostname = ad.life.360.cn, shared.ivydad.com, c.cfmoto.com, ms.jr.jd.com, api.fenxianglife.com, czyl.foton.com.cn, jdread-api.jd.com, www.kuaiduizuoye.com, c.kuaiduizuoye.com, adx.zuoyebang.com, g1.tagtic.cn, gateway.benewtech.cn, api.qbb6.com, api.mos.csvw.com, god.gameyw.netease.com, *.xhscdn.com, edu.seewo.com, api-mifit-cn3.zepp.com, shopapi.io.mi.com, www.xiaoxiongmeishu.com, edu.seewo.com, syh.zybang.com, zgrb.epicc.com.cn
