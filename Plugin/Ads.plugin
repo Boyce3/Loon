@@ -65,7 +65,7 @@ DOMAIN, sdk.1rtb.net, REJECT
 ^https:\/\/www\.xiaoxiongmeishu\.com\/api\/home\/v1\/config\/appInit url reject-200
 ^https:\/\/www\.xiaoxiongmeishu\.com\/api\/s\/v1\/popup\/createCouponPopup url reject-dict
 # 希沃白板 //edu.seewo.com
-https:\/\/edu\.seewo\.com\/app\/api\/v1\/startPage\/latest   url reject-dict
+https:\/\/edu\.seewo\.com\/app\/api\/v1\/startPage\/latest url reject-dict
 # 作业帮 //syh.zybang.com
 ^https?:\/\/syh\.zybang\.com\/com\/adx\/ url reject
 # 中国人保 //zgrb.epicc.com.cn
