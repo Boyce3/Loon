@@ -53,3 +53,5 @@ DOMAIN,cc.coemn.com
 IP-CIDR,193.123.252.106/32
 # Nanflix
 DOMAIN,nanflix.net
+# AWA影视
+DOMAIN,tv.811861.xyz
