@@ -1,4 +1,4 @@
-# 更新时间2024-09-09
+# 更新时间2024-09-14
 
 # 音乐服
 DOMAIN,music.iuii.org
@@ -56,3 +56,5 @@ DOMAIN,nanflix.net
 # AWA影视
 DOMAIN,tv.811861.xyz
 IP-CIDR,38.58.181.218/32
+# lily emby
+DOMAIN,emby.lilyya.xyz
