@@ -50,8 +50,6 @@ DOMAIN, sdk.1rtb.net, REJECT
 ^https:\/\/gateway\.benewtech\.cn\/resources-app\/app\/startup\/prepage reject-200
 # 亲宝宝 //api.qbb6.com
 ^https?:\/\/api\.qbb6\.com\/ad\/ reject
-# 上气大众 //api.mos.csvw.com
-^https?:\/\/api\.mos\.csvw\.com\/mos\/app-update\/api\/v1\/app\/update$ reject-dict
 # 网易大神 //god.gameyw.netease.com
 ^https?:\/\/god\.gameyw\.netease\.com\/v\d\/ad\/serving\/(common|app-start) reject-dict
 # 小红书 禁用缓存 //*.xhscdn.com
@@ -72,4 +70,4 @@ https:\/\/edu\.seewo\.com\/app\/api\/v1\/startPage\/latest reject-dict
 ^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/windowsintegration\/getMessage\/v1 reject-dict
 
 [Mitm]
-hostname = ad.life.360.cn, shared.ivydad.com, c.cfmoto.com, ms.jr.jd.com, api.fenxianglife.com, czyl.foton.com.cn, jdread-api.jd.com, www.kuaiduizuoye.com, c.kuaiduizuoye.com, adx.zuoyebang.com, g1.tagtic.cn, gateway.benewtech.cn, api.qbb6.com, api.mos.csvw.com, god.gameyw.netease.com, *.xhscdn.com, edu.seewo.com, api-mifit-cn3.zepp.com, shopapi.io.mi.com, www.xiaoxiongmeishu.com, edu.seewo.com, syh.zybang.com, zgrb.epicc.com.cn
+hostname = ad.life.360.cn, shared.ivydad.com, c.cfmoto.com, ms.jr.jd.com, api.fenxianglife.com, czyl.foton.com.cn, jdread-api.jd.com, www.kuaiduizuoye.com, c.kuaiduizuoye.com, adx.zuoyebang.com, g1.tagtic.cn, gateway.benewtech.cn, api.qbb6.com, god.gameyw.netease.com, *.xhscdn.com, edu.seewo.com, api-mifit-cn3.zepp.com, shopapi.io.mi.com, www.xiaoxiongmeishu.com, edu.seewo.com, syh.zybang.com, zgrb.epicc.com.cn
