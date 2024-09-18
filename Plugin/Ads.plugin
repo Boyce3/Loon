@@ -24,7 +24,7 @@ DOMAIN, sdk.1rtb.net, REJECT
 # 360儿童卫士 //ad.life.360.cn
 ^https:\/\/ad\.life\.360\.cn\/v2\/app\/advertisement\/config\?sdk_ver reject-dict
 # 哔哩哔哩 禁用缓存
-(?=resource\?resourceUrl|upos\-sz\-staticcos)  reject
+(?=resource\?resourceUrl|upos\-sz\-staticcos) reject
 (?=.*(hdslb\.com.*(\.zip|\.mp4)))^((?!(hdslb\.com\/bfs\/app-static\/)).)*$ reject
 # 常青藤爸爸 //shared.ivydad.com
 ^https:\/\/shared\.ivydad\.com\/api\/audios\/ad\/advertise\/getAdPage\?adLogoHeight reject-dict
