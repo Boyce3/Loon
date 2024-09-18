@@ -1,4 +1,4 @@
-# 更新时间2024-09-15
+# 更新时间2024-09-18
 
 # 音乐服
 DOMAIN,music.iuii.org
@@ -59,3 +59,5 @@ IP-CIDR,38.58.181.218/32
 # lily emby
 DOMAIN,emby.lilyya.xyz
 DOMAIN,cdnemby.lilyya.xyz
+# 西瓜
+DOMAIN,emby.1024.name
