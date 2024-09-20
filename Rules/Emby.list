@@ -1,4 +1,4 @@
-# 更新时间2024-09-18
+# 更新时间2024-09-20
 
 # 音乐服
 DOMAIN,music.iuii.org
@@ -61,3 +61,5 @@ DOMAIN,emby.lilyya.xyz
 DOMAIN,cdnemby.lilyya.xyz
 # 西瓜
 DOMAIN,emby.1024.name
+# hka
+DOMAIN,hka-emby.aliz.work
