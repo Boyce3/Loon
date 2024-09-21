@@ -58,7 +58,7 @@ DOMAIN,tv.811861.xyz
 IP-CIDR,38.58.181.218/32
 # lily emby
 DOMAIN,emby.lilyya.xyz
-DOMAIN,cdnemby.lilyya.xyz
+DOMAIN,cfemby.lilyya.xyz
 # 西瓜
 DOMAIN,emby.1024.name
 # hka
