@@ -17,8 +17,6 @@ DOMAIN-SUFFIX, dsp-x.jd.com, REJECT
 DOMAIN-SUFFIX, wxs.qq.com, REJECT
 # 小红书
 DOMAIN, fe-static.xhscdn.com, REJECT-DROP
-# 小蚕霸王餐
-DOMAIN, sdk.1rtb.net, REJECT
 
 [Rewrite]
 # 360儿童卫士 //ad.life.360.cn
