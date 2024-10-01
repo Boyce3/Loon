@@ -29,7 +29,7 @@ DOMAIN,cf.imetyou.top
 # Apop公益服
 DOMAIN,de.apopcloud.live
 IP-CIDR,132.226.20.31/32
-DOMAIN,208.75.134.189
+IP-CIDR,208.75.134.189/32
 # 牢大的野兽餐厅
 DOMAIN,emby-micax-ca-v2.mius.uk
 DOMAIN,emby-mica-us-v1.mius.uk
