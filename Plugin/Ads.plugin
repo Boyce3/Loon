@@ -5,7 +5,7 @@
 #!system = iOS, iPadOS
 #!loon_version = 3.2.1(745)
 #!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/ad.png
-#!date = 2024-09-28
+#!date = 2024-10-03
 
 [Rule]
 # 哔哩哔哩
@@ -64,6 +64,8 @@ https:\/\/edu\.seewo\.com\/app\/api\/v1\/startPage\/latest reject-dict
 ^https?:\/\/syh\.zybang\.com\/com\/adx\/ reject
 # 中国人保 //zgrb.epicc.com.cn
 ^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/windowsintegration\/getMessage\/v1 reject-dict
+# 中国移动开屏广告
+^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) reject
 
 [Mitm]
-hostname = ad.life.360.cn, shared.ivydad.com, c.cfmoto.com, ms.jr.jd.com, api.fenxianglife.com, czyl.foton.com.cn, jdread-api.jd.com, www.kuaiduizuoye.com, c.kuaiduizuoye.com, adx.zuoyebang.com, g1.tagtic.cn, gateway.benewtech.cn, api.qbb6.com, *.xhscdn.com, edu.seewo.com, api-mifit-cn3.zepp.com, shopapi.io.mi.com, www.xiaoxiongmeishu.com, edu.seewo.com, syh.zybang.com, zgrb.epicc.com.cn
+hostname = ad.life.360.cn, shared.ivydad.com, c.cfmoto.com, ms.jr.jd.com, api.fenxianglife.com, czyl.foton.com.cn, jdread-api.jd.com, www.kuaiduizuoye.com, c.kuaiduizuoye.com, adx.zuoyebang.com, g1.tagtic.cn, gateway.benewtech.cn, api.qbb6.com, *.xhscdn.com, edu.seewo.com, api-mifit-cn3.zepp.com, shopapi.io.mi.com, www.xiaoxiongmeishu.com, edu.seewo.com, syh.zybang.com, zgrb.epicc.com.cn, client.app.coc.10086.cn
