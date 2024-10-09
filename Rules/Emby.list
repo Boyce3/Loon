@@ -6,11 +6,14 @@ DOMAIN,axk.123456.buzz
 # 琴鸟
 DOMAIN,cdn.lyrebirdemby.com
 # 卷毛鼠
-DOMAIN,cf2.jmsuper.com
+DOMAIN-SUFFIX,jmsuper.com
 # 终点站
 DOMAIN,pub1.emby.wtf
+DOMAIN,pub1.term.wtf
 DOMAIN,pub2.emby.wtf
+DOMAIN,pub2.term.wtf
 DOMAIN,pub3.emby.wtf
+DOMAIN,pub3.term.wtf
 # 纸片人小站
 DOMAIN-SUFFIX,embyplus.org
 # PiliPili
@@ -26,13 +29,15 @@ DOMAIN,789.123456.al
 DOMAIN,free.emby.eu.org
 # paul_电报服
 DOMAIN,cf.imetyou.top
-# Apop公益服
+# Apop
 DOMAIN,de.apopcloud.live
 IP-CIDR,132.226.20.31/32
 IP-CIDR,208.75.134.189/32
 # 牢大的野兽餐厅
 DOMAIN,emby-micax-ca-v2.mius.uk
 DOMAIN,emby-mica-us-v1.mius.uk
+DOMAIN,sadsafsfsafsadas.mius.uk
+DOMAIN,emby-mica-hk-v4.mius.uk
 # 大V影院
 DOMAIN,su.viclub.top
 # 飞跃彩虹
@@ -63,10 +68,12 @@ IP-CIDR,38.58.181.218/32
 # lily emby
 DOMAIN,emby.lilyya.xyz
 DOMAIN,cfemby.lilyya.xyz
+DOMAIN,cfemby.lilyya.xyz
+DOMAIN,embyhk.lilyya.xyz
 # 西瓜
 DOMAIN-SUFFIX,1024.name
 # hka
-DOMAIN,hka-emby.aliz.work
+DOMAIN-SUFFIX,aliz.work
 # 见手青
 DOMAIN,jsq.mooguu.top
 # AlphaTV海外服
