@@ -1,11 +1,11 @@
 #!name = 自用APP去广告合集
-#!desc = 自用的一些APP去广告
+#!desc = 自用APP去广告
 #!author = Boyce3
 #!tag = 去广告
 #!system = iOS, iPadOS
 #!loon_version = 3.2.1(745)
 #!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/ad.png
-#!date = 2024-10-03
+#!date = 2024-10-09
 
 [Rule]
 # 哔哩哔哩
@@ -64,7 +64,7 @@ https:\/\/edu\.seewo\.com\/app\/api\/v1\/startPage\/latest reject-dict
 ^https?:\/\/syh\.zybang\.com\/com\/adx\/ reject
 # 中国人保 //zgrb.epicc.com.cn
 ^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/windowsintegration\/getMessage\/v1 reject-dict
-# 中国移动开屏广告
+# 中国移动
 ^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) reject
 
 [Mitm]
