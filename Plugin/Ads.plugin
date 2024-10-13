@@ -70,6 +70,10 @@ https:\/\/edu\.seewo\.com\/app\/api\/v1\/startPage\/latest reject-dict
 ^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/windowsintegration\/getMessage\/v1 reject-dict
 # 中国移动
 ^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) reject
+# 湛庐阅读 //m.api.app.cheerspublishing.com
+^https:\/\/m\.api\.app\.cheerspublishing\.com\/app\/v1\/ad\/detail url reject-dict
+^https:\/\/m\.api\.app\.cheerspublishing\.com\/app\/v1\/dialog\/detail url reject-dict
+
 
 [Mitm]
-hostname = ad.life.360.cn, shared.ivydad.com, c.cfmoto.com, ms.jr.jd.com, api.fenxianglife.com, czyl.foton.com.cn, jdread-api.jd.com, yyfapi.huatu.com, www.kuaiduizuoye.com, c.kuaiduizuoye.com, adx.zuoyebang.com, g1.tagtic.cn, gateway.benewtech.cn, api.qbb6.com, *.xhscdn.com, edu.seewo.com, learn.chaoxing.com, api-mifit-cn3.zepp.com, shopapi.io.mi.com, www.xiaoxiongmeishu.com, edu.seewo.com, syh.zybang.com, zgrb.epicc.com.cn, client.app.coc.10086.cn
+hostname = ad.life.360.cn, shared.ivydad.com, c.cfmoto.com, ms.jr.jd.com, api.fenxianglife.com, czyl.foton.com.cn, jdread-api.jd.com, yyfapi.huatu.com, www.kuaiduizuoye.com, c.kuaiduizuoye.com, adx.zuoyebang.com, g1.tagtic.cn, gateway.benewtech.cn, api.qbb6.com, *.xhscdn.com, edu.seewo.com, learn.chaoxing.com, api-mifit-cn3.zepp.com, shopapi.io.mi.com, www.xiaoxiongmeishu.com, edu.seewo.com, syh.zybang.com, zgrb.epicc.com.cn, client.app.coc.10086.cn, m.api.app.cheerspublishing.com
