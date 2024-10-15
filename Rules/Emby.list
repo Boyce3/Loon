@@ -30,9 +30,8 @@ DOMAIN,free.emby.eu.org
 # paul_电报服
 DOMAIN,cf.imetyou.top
 # Apop
-DOMAIN,de.apopcloud.live
-IP-CIDR,132.226.20.31/32
-IP-CIDR,208.75.134.189/32
+DOMAIN-SUFFIX,apopcloud.live
+DOMAIN-SUFFIX,209966.xyz
 # 牢大的野兽餐厅
 DOMAIN,emby-micax-ca-v2.mius.uk
 DOMAIN,emby-mica-us-v1.mius.uk
