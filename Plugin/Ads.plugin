@@ -5,7 +5,7 @@
 #!system = iOS, iPadOS
 #!loon_version = 3.2.1(745)
 #!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/ad.png
-#!date = 2024-10-13
+#!date = 2024-10-15
 
 [Rule]
 # 哔哩哔哩
@@ -13,8 +13,6 @@ DOMAIN, upos-sz-staticcos.bilivideo.com, REJECT-DROP
 # 作业精灵
 DOMAIN-SUFFIX, beizi.biz, REJECT
 DOMAIN-SUFFIX, dsp-x.jd.com, REJECT
-# 微信公众号
-DOMAIN-SUFFIX, wxs.qq.com, REJECT
 # 小红书
 DOMAIN, fe-static.xhscdn.com, REJECT-DROP
 
