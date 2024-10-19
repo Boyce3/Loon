@@ -1,11 +1,11 @@
-#!name = 微博签到
-#!desc = 微博每日签到，支持多账号运行
-#!author = 
-#!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/wb.png
+#!name = 龙湖天街签到
+#!desc = 龙湖天街小程序签到、抽奖
+#!author = Leiyiyan
+#!icon = https://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png
 #!date = 2024-10-19
 
 [Script]
-http-request https:\/\/api\.weibo\.cn\/\d\/users\/show script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/weibo.js, timeout=60, tag=weibo
+http-request ^https?:\/\/gw2c\-hw\-open\.longfor\.com\/lmarketing\-task\-api\-mvc\-prod\/openapi\/task\/v1\/signature\/clock script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/lhtj/lhtj.js, timeout=60, tag=龙湖天街获取Cookie
 
 [MITM]
-hostname = api.weibo.cn
+hostname = gw2c-hw-open.longfor.com
