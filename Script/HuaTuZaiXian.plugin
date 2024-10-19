@@ -1,1 +1,11 @@
-q
+#!name = 华图在线签到
+#!desc = 华图在线签到
+#!author = Sliverkiss
+#!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/htzx.png
+#!date = 2024-10-19
+
+[Script]
+http-response ^https:\/\/ns\.huatu\.com\/u\/v3\/member\/user\/icon script-path=https://gist.githubusercontent.com/Sliverkiss/242211e19ce56b711436a8e4393452ed/raw/htzx.js, requires-body=true, timeout=60, tag=htzx
+
+[MITM]
+hostname = ns.huatu.com
