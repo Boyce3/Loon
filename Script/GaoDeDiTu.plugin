@@ -1,11 +1,11 @@
-#!name = 哈啰单车签到
-#!desc = 哈啰单车签到
-#!author = Sliverkiss
-#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hldc.png
+#!name = 高德打车签到
+#!desc = 自动签到 地图APP/微信小程序、支付宝小程序
+#!author = 
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Gddt.png
 #!date = 2024-10-19
 
 [Script]
-http-request ^https:\/\/marketingapi\.hellobike\.com\/api\?mars\.task\.showTaskList script-path=https://gist.githubusercontent.com/Sliverkiss/4e0081f7b18a2cea9dbdf13545e60885/raw/hldc.js, requires-body=true, timeout=60, tag=hldc
+http-response ^https:\/\/(m5(|-zb)|dache)\.amap\.com\/(ws\/yuece\/(act|openapi\/activity\/current)\/query|common\/(alipaymini|wxmini)\?_ENCRYPT=) script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js, requires-body=true, timeout=60, tag=ampDache
 
 [MITM]
-hostname = marketingapi.hellobike.com
+hostname = *.amap.com
