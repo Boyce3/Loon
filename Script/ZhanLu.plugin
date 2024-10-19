@@ -1,1 +1,11 @@
-q
+#!name = 湛庐阅读签到
+#!desc = 湛庐阅读 一天135积分+，积分100:1抵现
+#!author = Sliverkiss
+#!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/zhl.png
+#!date = 2024-10-19
+
+[Script]
+http-response ^https:\/\/h5\.api\.app\.cheerspublishing\.com\/app\/v1\/user\/info script-path=https://gist.githubusercontent.com/Sliverkiss/af522eba4ae061762ce0042dbf0ff0ce/raw/zhanlu.js, requires-body=true, timeout=60, tag=zhanlu
+
+[MITM]
+hostname = h5.api.app.cheerspublishing.com
