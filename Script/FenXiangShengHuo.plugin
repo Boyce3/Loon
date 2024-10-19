@@ -5,7 +5,7 @@
 #!date = 2024-10-19
 
 [Script]
-http-response ^https:\/\/api\.fenxianglife\.com\/njia\/users\/info script-path=https://gist.githubusercontent.com/Sliverkiss/fcfab421bbe63d10948f48a7baa5a6ea/raw/fxsh.js, requires-body=true, timeout=60, tag=份象生活
+http-response ^https:\/\/api\.fenxianglife\.com\/njia\/users\/info script-path=https://gist.githubusercontent.com/Sliverkiss/fcfab421bbe63d10948f48a7baa5a6ea/raw/fxsh.js, requires-body=true, timeout=60, tag=粉象生活
 
 [MITM]
 hostname = api.fenxianglife.com
