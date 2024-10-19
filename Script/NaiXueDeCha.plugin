@@ -1,11 +1,11 @@
 #!name = 奈雪的茶签到
-#!desc = 奈雪点单签到
+#!desc = 奈雪点单
 #!author = Sliverkiss
 #!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/naixue.png
 #!date = 2024-10-19
 
 [Script]
-http-request ^https:\/\/tm-web\.pin-dao\.cn\/user\/base-userinfo script-path=https://gist.githubusercontent.com/Sliverkiss/4d0e9572b99530b7cb0e7298622aa2a9/raw/naixue.js, requires-body=true, timeout=60, tag=奈雪点单获取token
+http-request ^https:\/\/tm-web\.pin-dao\.cn\/user\/base-userinfo script-path=https://gist.githubusercontent.com/Sliverkiss/4d0e9572b99530b7cb0e7298622aa2a9/raw/naixue.js, requires-body=true, timeout=60, tag=奈雪点单获取
 
 [MITM]
 hostname = tm-web.pin-dao.cn
