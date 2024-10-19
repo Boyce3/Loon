@@ -1,11 +1,11 @@
-#!name = 康佰家大药房签到
-#!desc = 微信小程序康佰家大药房签到
+#!name = 泡泡玛特签到
+#!desc = 微信小程序泡泡玛特签到
 #!author = Sliverkiss
-#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Kbj.png
+#!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/ppmt.png
 #!date = 2024-10-19
 
 [Script]
-http-request ^https:\/\/app.fjxzj.com\/wxscrm\/api\/member.php\?api=myintegralall script-path=https://gist.githubusercontent.com/Sliverkiss/48154e5277d87f9810d6b13b2b98f12a/raw/kbj.js, timeout=60, tag=kbj
+http-response ^https:\/\/popvip\.paquapp\.com\/miniapp\/v2\/wechat\/getUserInfo script-path=https://gist.githubusercontent.com/Sliverkiss/3e1fe82fa18dbcff9b2ae7fdad7596a6/raw/ppmt.js, requires-body=true, timeout=60, tag=泡泡玛特获取token
 
 [MITM]
-hostname = app.fjxzj.com
+hostname = popvip.paquapp.com
