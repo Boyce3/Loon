@@ -1,1 +1,11 @@
+#!name = ZIPPO会员中心签到
+#!desc = ZIPPO会员中心签到
+#!author = Yuheng0101
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zippo.png
+#!date = 2024-10-19
 
+[Script]
+http-request ^https?:\/\/wx-center\.zippo\.com\.cn\/api\/users\/profile script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/zippo.js, timeout=60, tag=𝐙𝐈𝐏𝐏𝐎会员中心获取Authorization
+
+[MITM]
+hostname = wx-center.zippo.com.cn
