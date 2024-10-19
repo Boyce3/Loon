@@ -1,11 +1,11 @@
-#!name = 蜜雪冰城签到
-#!desc = 蜜雪冰城 每日签到、访问雪王铺
-#!author = Sliverkiss
-#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/mxbc.png
+#!name = 卫岗天天订签到
+#!desc = 微信小程序卫岗天天订签到
+#!author = anyeyey
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/wgttd.png
 #!date = 2024-10-19
 
 [Script]
-http-response ^https:\/\/mxsa\.mxbc\.net\/api\/v1\/customer\/info script-path=https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js, requires-body=true, timeout=60, tag=蜜雪冰城获取token
+http-request ^https:\/\/ttdprod-mp\.4008618618\.com\/mallbusiness\/ums\/common\/getMemberInfo script-path=https://raw.githubusercontent.com/anyehttp/quantumult-x/main/task/wgttd.js, timeout=60, tag=wgttd
 
 [MITM]
-hostname = mxsa.mxbc.net
+hostname = ttdprod-mp.4008618618.com
