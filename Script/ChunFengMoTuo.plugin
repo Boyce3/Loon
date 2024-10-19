@@ -1,1 +1,11 @@
-uu
+#!name = 春风摩托签到
+#!desc = 春风摩托每日签到、会员任务，积分可兑换实物
+#!author = Leiyiyan
+#!icon = https://raw.githubusercontent.com/leiyiyan/resource/main/icons/cfmoto.png
+#!date = 2024-10-19
+
+[Script]
+http-response ^https:\/\/c\.cfmoto\.com\/jv\/user\/user_info script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/cfmoto/cfmoto.js, requires-body=true, timeout=60, tag=春风摩托
+
+[MITM]
+hostname = c.cfmoto.com
