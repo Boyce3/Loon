@@ -1,1 +1,11 @@
-ii
+#!name = 健达福利社签到
+#!desc = 健达福利社
+#!author = xzxxn777
+#!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/jd.png
+#!date = 2024-10-19
+
+[Script]
+http-response ^https:\/\/mole\.ferrero\.com\.cn\/boss\/boss\/scrm\/home\/info\/get script-path=https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/JDFLS/JDFLS.js, requires-body=true, tag=健达福利社
+
+[MITM]
+hostname = mole.ferrero.com.cn
