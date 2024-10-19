@@ -8,4 +8,4 @@
 http-response ^https?:\/\/www\.feihevip\.com\/api\/starMember\/getMemberInfo script-path=https://raw.githubusercontent.com/leiyiyan/resource/main/script/xmyx/xmyx.js, requires-body=true, timeout=60, tag=星妈优选
 
 [MITM]
-hostname = cdfmbrapi.cdfg.com.cn 
+hostname = www.feihevip.com 
