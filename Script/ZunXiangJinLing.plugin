@@ -1,11 +1,11 @@
 #!name = 尊享金陵签到
-#!desc = 尊享金陵签到
+#!desc = 尊享金陵
 #!author = xzxxn777
 #!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zxjl.png
 #!date = 2024-10-19
 
 [Script]
-http-response ^https:\/\/app\.jinlinghotels\.com\/app\/wx\/v1\/getAuthUser script-path=https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/ZXJL/ZXJL.js, requires-body=true, tag=尊享金陵_获取token
+http-response ^https:\/\/app\.jinlinghotels\.com\/app\/wx\/v1\/getAuthUser script-path=https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/ZXJL/ZXJL.js, requires-body=true, tag=尊享金陵
 
 [MITM]
 hostname = app.jinlinghotels.com
