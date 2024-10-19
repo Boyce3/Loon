@@ -1,11 +1,11 @@
 #!name = 泡泡玛特签到
-#!desc = 微信小程序泡泡玛特签到
+#!desc = 泡泡玛特
 #!author = Sliverkiss
 #!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/ppmt.png
 #!date = 2024-10-19
 
 [Script]
-http-response ^https:\/\/popvip\.paquapp\.com\/miniapp\/v2\/wechat\/getUserInfo script-path=https://gist.githubusercontent.com/Sliverkiss/3e1fe82fa18dbcff9b2ae7fdad7596a6/raw/ppmt.js, requires-body=true, timeout=60, tag=泡泡玛特获取token
+http-response ^https:\/\/popvip\.paquapp\.com\/miniapp\/v2\/wechat\/getUserInfo script-path=https://gist.githubusercontent.com/Sliverkiss/3e1fe82fa18dbcff9b2ae7fdad7596a6/raw/ppmt.js, requires-body=true, timeout=60, tag=泡泡玛特
 
 [MITM]
 hostname = popvip.paquapp.com
