@@ -4,7 +4,7 @@
 #!date = 2024-10-19
 
 [Script]
-http-response ^https:\/\/cdfmbrapi\.cdfg\.com\.cn\/api\/user\/info script-path=https://gist.githubusercontent.com/Sliverkiss/615bbd265bc0eab8ce5fb5f32af10016/raw/zmhyV2.js, requires-body=true, timeout=60, tag=zmhyV2
+http-response ^https:\/\/cdfmbrapi\.cdfg\.com\.cn\/api\/user\/info script-path=https://gist.githubusercontent.com/Sliverkiss/615bbd265bc0eab8ce5fb5f32af10016/raw/zmhyV2.js, requires-body=true, timeout=60, tag=中免会员(自动续期版本)
 
 [MITM]
 hostname = cdfmbrapi.cdfg.com.cn
