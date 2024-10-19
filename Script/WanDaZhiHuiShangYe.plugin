@@ -1,7 +1,7 @@
 #!name = 万达智慧商业签到
 #!desc = 万达智慧商业
-#!author = xzxxn777
-#!icon = leiyiyan
+#!author = leiyiyan
+#!icon = https://raw.githubusercontent.com/leiyiyan/resource/main/icons/wdzhsy.png
 #!date = 2024-10-19
 
 [Script]
