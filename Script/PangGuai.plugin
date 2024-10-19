@@ -1,1 +1,11 @@
-i
+#!name = 胖乖生活签到
+#!desc = 胖乖生活
+#!author = Sliverkiss
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/pgsh.png
+#!date = 2024-10-19
+
+[Script]
+http-request ^https:\/\/userapi\.qiekj\.com\/wechat\/unionId\/login script-path=https://gist.githubusercontent.com/Sliverkiss/845cf469e4762afdc83c3949be006609/raw/pgsh.js, requires-body=true, timeout=60, tag=胖乖生活
+
+[MITM]
+hostname = userapi.qiekj.com
