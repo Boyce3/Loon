@@ -1,0 +1,11 @@
+#!name = 米其林会员俱乐部
+#!desc = 米其林会员俱乐部
+#!author = Sliverkiss
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Michelin.png
+#!date = 2024-10-19
+
+[Script]
+http-response ^https:\/\/ulp\.michelin\.com\.cn\/bff\/wechat\/login script-path=https://gist.githubusercontent.com/Sliverkiss/7773f83eb14a98c8e24a41f883fca591/raw/michelinV2.js, requires-body=true, timeout=60, tag=michelinV2
+
+[MITM]
+hostname = ulp.michelin.com.cn
