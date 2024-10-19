@@ -1,1 +1,11 @@
-q
+#!name = 有赞小程序每日签到
+#!desc = 有赞小程序每日签到
+#!author = Sliverkiss
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Checkbox.png
+#!date = 2024-10-19
+
+[Script]
+http-request https://h5.youzan.com/wscump/checkin/get_activity_by_yzuid_v2.json.+ script-path=https://gist.githubusercontent.com/Sliverkiss/8770ecc5fe99c8f6d99c964b33244d79/raw/youzanV3.js, timeout=300, tag=Sakura Checkbox获取token
+
+[MITM]
+hostname = h5.youzan.com
