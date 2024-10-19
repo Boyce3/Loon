@@ -1,0 +1,11 @@
+#!name = 康佰家大药房签到
+#!desc = 微信小程序康佰家大药房签到
+#!author = Sliverkiss
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Kbj.png
+#!date = 2024-10-19
+
+[Script]
+http-request ^https:\/\/app.fjxzj.com\/wxscrm\/api\/member.php\?api=myintegralall script-path=https://gist.githubusercontent.com/Sliverkiss/48154e5277d87f9810d6b13b2b98f12a/raw/kbj.js, timeout=60, tag=kbj
+
+[MITM]
+hostname = app.fjxzj.com
