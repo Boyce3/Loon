@@ -1,0 +1,11 @@
+#!name = 攀升科技签到
+#!desc = 攀升科技
+#!author = xzxxn777
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/pskj.png
+#!date = 2024-10-19
+
+[Script]
+http-response ^https:\/\/psjia\.ipason\.com\/api\/v2\/member\/memberinfo script-path=https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/PSKJ/PSKJ.js, requires-body=true, tag=攀升科技
+
+[MITM]
+hostname = psjia.ipason.com
