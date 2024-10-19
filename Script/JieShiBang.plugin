@@ -1,11 +1,11 @@
-#!name = IQOO社区任务签到
-#!desc = IQOO社区任务 每日任务、成长值任务｜抽奖、发布帖子
+#!name = 杰士邦签到
+#!desc = 杰士邦安心福利社 积分换情趣用品
 #!author = Sliverkiss
-#!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/iqoo.png
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/jsb.png
 #!date = 2024-10-19
 
 [Script]
-http-response ^https:\/\/bbs-api\.iqoo\.com\/api\/v3\/user\?userId= script-path=https://gist.githubusercontent.com/Sliverkiss/bfc5527ad3ea8ac7b0820ca442442452/raw/iqoo.js, requires-body=true, timeout=60, tag=IQOO社区获取token
+http-response ^https:\/\/xh-vip-api\.a-touchin\.com\/mp\/user\/info script-path=https://gist.githubusercontent.com/Sliverkiss/6d15658e313eee254a55d2b97933587c/raw/jsb.js, requires-body=true, timeout=60, tag=杰士邦安心福利社获取token
 
 [MITM]
-hostname = bbs-api.iqoo.com
+hostname = xh-vip-api.a-touchin.com
