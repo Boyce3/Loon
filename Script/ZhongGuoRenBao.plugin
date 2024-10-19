@@ -1,1 +1,11 @@
-uu
+#!name = 中国人保签到
+#!desc = 中国人保app日常任务
+#!author = Sliverkiss
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/zgrb.png
+#!date = 2024-10-19
+
+[Script]
+http-request ^https:\/\/zgrb\.epicc\.com\.cn\/G-BASE\/a\/user\/login\/thirdPartyLogin\/v1 script-path=https://gist.githubusercontent.com/Sliverkiss/9b83fb700558a95e7400a4f719a4892b/raw/zgrbV2.js, requires-body=true, timeout=60, tag=中国人保
+
+[MITM]
+hostname = zgrb.epicc.com.cn
