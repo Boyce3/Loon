@@ -1,0 +1,11 @@
+#!name = 青桔单车签到
+#!desc = 青桔单车
+#!author = Sliverkiss
+#!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/qj.png
+#!date = 2024-10-19
+
+[Script]
+http-request ^https:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=prado\.play\.common\.facade\.component script-path=https://gist.githubusercontent.com/Sliverkiss/a51a54c8662db9c0fddd422eb29b5e99/raw/qjdc.js, requires-body=true, timeout=60, tag=青桔单车
+
+[MITM]
+hostname = htwkop.xiaojukeji.com
