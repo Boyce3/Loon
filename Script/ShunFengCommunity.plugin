@@ -1,1 +1,11 @@
-q
+#!name = 顺丰速运体验社区签到
+#!desc = 顺丰速运体验社区签到及任务
+#!author = Sliverkiss
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sfsy.png
+#!date = 2024-10-19
+
+[Script]
+http-request ^https:\/\/ccsp-egmas\.sf-express\.com\/cx-app-member\/member\/app\/oauth2\/authorize script-path=https://gist.githubusercontent.com/Sliverkiss/2cadc6a4022ab2866aced9adda0a5744/raw/sfsyCommunity.js, requires-body=true, timeout=60, tag=sfsyCommunity
+
+[MITM]
+hostname = ccsp-egmas.sf-express.com
