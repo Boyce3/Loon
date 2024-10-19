@@ -1,11 +1,11 @@
-#!name = 携程旅行签到
-#!desc = 携程旅行签到脚本
-#!author = NobyDa
-#!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/xch.png
+#!name = 蜜雪冰城签到
+#!desc = 蜜雪冰城 每日签到、访问雪王铺
+#!author = Sliverkiss
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/mxbc.png
 #!date = 2024-10-19
 
 [Script]
-http-response ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/[a-zA-Z]+Login(?:$|\?) script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Ctrip-DailyBonus/Ctrip.js, requires-body=true, timeout=60, tag=Ctrip
+http-response ^https:\/\/mxsa\.mxbc\.net\/api\/v1\/customer\/info script-path=https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js, requires-body=true, timeout=60, tag=蜜雪冰城获取token
 
 [MITM]
-hostname = m.ctrip.com
+hostname = mxsa.mxbc.net
