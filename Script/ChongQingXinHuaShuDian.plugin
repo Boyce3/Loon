@@ -1,1 +1,11 @@
-uu
+#!name = 重庆新华书店签到
+#!desc = 重庆新华书店 签到、抽奖
+#!author = Sliverkiss
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Cqxhsd.png
+#!date = 2024-10-19
+
+[Script]
+http-request ^https:\/\/wx\.cqxhsd\.cn:(8888|8889)\/ASHX2\/PERSONAL\.ashx script-path=https://gist.githubusercontent.com/Sliverkiss/b2ed21b421b5113053e8f9d3c64f9c38/raw/cqxhsd.js, requires-body=true, timeout=60, tag=重庆新华书店
+
+[MITM]
+hostname = wx.cqxhsd.cn, wx.cqxhsd.cn:8888, wx.cqxhsd.cn:8889
