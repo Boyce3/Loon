@@ -1,11 +1,11 @@
-#!name = 中国人保app云养小鸡签到
-#!desc = 中国人保app云养小鸡
+#!name = picc农场签到
+#!desc = picc农场
 #!author = Sliverkiss
-#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/rbxj.png
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/picc.png
 #!date = 2024-10-19
 
 [Script]
-http-request ^https:\/\/m\.picclife\.cn\/chicken-api\/h5login script-path=https://gist.githubusercontent.com/Sliverkiss/354b1080735241fd1c7baa62598302d5/raw/rbxj.js, timeout=60, tag=人保小鸡
+http-request ^https:\/\/nongchang\.maxrocky\.com\/index\.php\?s=index\/index\/userConfig script-path=https://gist.githubusercontent.com/Sliverkiss/8ab75614fe77cee3cc388b15de70176b/raw/picc.js, requires-body=true, timeout=60, tag=picc农场
 
 [MITM]
-hostname = m.picclife.cn
+hostname = nongchang.maxrocky.com
