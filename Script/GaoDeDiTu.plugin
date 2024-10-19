@@ -1,0 +1,11 @@
+#!name = 哈啰单车签到
+#!desc = 哈啰单车签到
+#!author = Sliverkiss
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Hldc.png
+#!date = 2024-10-19
+
+[Script]
+http-request ^https:\/\/marketingapi\.hellobike\.com\/api\?mars\.task\.showTaskList script-path=https://gist.githubusercontent.com/Sliverkiss/4e0081f7b18a2cea9dbdf13545e60885/raw/hldc.js, requires-body=true, timeout=60, tag=hldc
+
+[MITM]
+hostname = marketingapi.hellobike.com
