@@ -5,7 +5,7 @@
 #!date = 2024-10-19
 
 [Script]
-http-response ^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/share\/weChat\/shareGiftReceiveRedirect.+ script-path=https://gist.githubusercontent.com/Sliverkiss/f4bbb9911b3d8fde9ff9ce077073f0ac/raw/sfsyV2.js, requires-body=true, timeout=60, tag=顺丰速运获取
+http-response ^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/share\/weChat\/shareGiftReceiveRedirect.+ script-path=https://gist.githubusercontent.com/Sliverkiss/f4bbb9911b3d8fde9ff9ce077073f0ac/raw/sfsyV2.js, requires-body=true, timeout=60, tag=顺丰速运
 
 [MITM]
 hostname = mcs-mimp-web.sf-express.com
