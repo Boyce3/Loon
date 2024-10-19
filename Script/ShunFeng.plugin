@@ -1,1 +1,11 @@
-i
+#!name = 顺丰速运签到
+#!desc = 顺丰速运签到、日常任务、会员日、蜂蜜。
+#!author = Sliverkiss
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/sfsy.png
+#!date = 2024-10-19
+
+[Script]
+http-response ^https:\/\/mcs-mimp-web\.sf-express\.com\/mcs-mimp\/share\/weChat\/shareGiftReceiveRedirect.+ script-path=https://gist.githubusercontent.com/Sliverkiss/f4bbb9911b3d8fde9ff9ce077073f0ac/raw/sfsyV2.js, requires-body=true, timeout=60, tag=顺丰速运获取
+
+[MITM]
+hostname = mcs-mimp-web.sf-express.com
