@@ -1,1 +1,11 @@
-rrr
+#!name = 小蚕签到
+#!desc = 小蚕霸王餐日常任务、抽奖/小蚕霸王餐红包雨
+#!author = Sliverkiss
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/xcbwc.png
+#!date = 2024-10-19
+
+[Script]
+http-response ^https:\/\/gw\.xiaocantech\.com\/rpc script-path=https://gist.githubusercontent.com/Sliverkiss/250a02315f0a2c99f42da3b3573375c8/raw, requires-body=true, timeout=60, tag=.com/Sliverkiss/250a02315f0a2c99f42da3b3573375c8/
+
+[MITM]
+hostname = gw.xiaocantech.com
