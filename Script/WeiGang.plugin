@@ -1,11 +1,11 @@
 #!name = 卫岗天天订签到
-#!desc = 微信小程序卫岗天天订签到
+#!desc = 卫岗天天订
 #!author = anyeyey
 #!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/wgttd.png
 #!date = 2024-10-19
 
 [Script]
-http-request ^https:\/\/ttdprod-mp\.4008618618\.com\/mallbusiness\/ums\/common\/getMemberInfo script-path=https://raw.githubusercontent.com/anyehttp/quantumult-x/main/task/wgttd.js, timeout=60, tag=wgttd
+http-request ^https:\/\/ttdprod-mp\.4008618618\.com\/mallbusiness\/ums\/common\/getMemberInfo script-path=https://raw.githubusercontent.com/anyehttp/quantumult-x/main/task/wgttd.js, timeout=60, tag=卫岗
 
 [MITM]
 hostname = ttdprod-mp.4008618618.com
