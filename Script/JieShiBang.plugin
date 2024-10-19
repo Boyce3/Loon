@@ -5,7 +5,7 @@
 #!date = 2024-10-19
 
 [Script]
-http-response ^https:\/\/xh-vip-api\.a-touchin\.com\/mp\/user\/info script-path=https://gist.githubusercontent.com/Sliverkiss/6d15658e313eee254a55d2b97933587c/raw/jsb.js, requires-body=true, timeout=60, tag=杰士邦安心福利社获取token
+http-response ^https:\/\/xh-vip-api\.a-touchin\.com\/mp\/user\/info script-path=https://gist.githubusercontent.com/Sliverkiss/6d15658e313eee254a55d2b97933587c/raw/jsb.js, requires-body=true, timeout=60, tag=杰士邦安心福利社
 
 [MITM]
 hostname = xh-vip-api.a-touchin.com
