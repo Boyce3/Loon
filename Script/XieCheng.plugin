@@ -1,11 +1,11 @@
 #!name = 携程旅行签到
-#!desc = 携程旅行签到脚本
+#!desc = 携程旅行
 #!author = NobyDa
 #!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/xch.png
 #!date = 2024-10-19
 
 [Script]
-http-response ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/[a-zA-Z]+Login(?:$|\?) script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Ctrip-DailyBonus/Ctrip.js, requires-body=true, timeout=60, tag=Ctrip
+http-response ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/[a-zA-Z]+Login(?:$|\?) script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Ctrip-DailyBonus/Ctrip.js, requires-body=true, timeout=60, tag=携程旅行
 
 [MITM]
 hostname = m.ctrip.com
