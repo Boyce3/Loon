@@ -1,1 +1,11 @@
-iii
+#!name = 复游会（托迈酷客）签到
+#!desc = 每日签到可获得积分
+#!author = 
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Tmkk.png
+#!date = 2024-10-19
+
+[Script]
+http-request ^https:\/\/apis\.folidaymall\.com\/online\/capi\/uc\/getCount script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/ThomasCook.js, tag=获取托迈酷客Cookie
+
+[MITM]
+hostname = apis.folidaymall.com
