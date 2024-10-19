@@ -5,7 +5,6 @@
 #!date = 2024-10-19
 
 [Script]
-http-response ^https:\/\/gw\.xiaocantech\.com\/rpc script-path=https://gist.githubusercontent.com/Sliverkiss/250a02315f0a2c99f42da3b3573375c8/raw, requires-body=true, timeout=60, tag=.com/Sliverkiss/250a02315f0a2c99f42da3b3573375c8/
-
+http-response ^https:\/\/gw\.xiaocantech\.com\/rpc script-path=https://gist.githubusercontent.com/Sliverkiss/250a02315f0a2c99f42da3b3573375c8/raw, requires-body=true, timeout=60, tag=小蚕霸王餐
 [MITM]
 hostname = gw.xiaocantech.com
