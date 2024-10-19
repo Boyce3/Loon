@@ -1,1 +1,11 @@
-q
+#!name = 酷乐潮玩签到
+#!desc = 豚门许愿池 日常任务 定时每2小时一次
+#!author = Sliverkiss
+#!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/kl.png
+#!date = 2024-10-19
+
+[Script]
+http-request ^https:\/\/kulechaowan-gameycl-api\.idspub\.com\/client\/kule_sdk_access_token script-path=https://gist.githubusercontent.com/Sliverkiss/0512d4c124f8688905bf5dfbce1ed71e/raw/tmxyc.js, requires-body=true, timeout=60, tag=tmxyc
+
+[MITM]
+hostname = kulechaowan-gameycl-api.idspub.com
