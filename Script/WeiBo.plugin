@@ -1,1 +1,11 @@
-qqq
+#!name = IQOO社区任务签到
+#!desc = IQOO社区任务 每日任务、成长值任务｜抽奖、发布帖子
+#!author = Sliverkiss
+#!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/iqoo.png
+#!date = 2024-10-19
+
+[Script]
+http-response ^https:\/\/bbs-api\.iqoo\.com\/api\/v3\/user\?userId= script-path=https://gist.githubusercontent.com/Sliverkiss/bfc5527ad3ea8ac7b0820ca442442452/raw/iqoo.js, requires-body=true, timeout=60, tag=IQOO社区获取token
+
+[MITM]
+hostname = bbs-api.iqoo.com
