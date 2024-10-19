@@ -1,0 +1,11 @@
+#!name = 海天美味签到
+#!desc = 海天美味
+#!author = xzxxn777
+#!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/htmw.png
+#!date = 2024-10-19
+
+[Script]
+http-response ^https:\/\/cmallapi\.haday\.cn\/buyer-api\/wechat\/mini\/phoneNew\/login script-path=https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/HaiTian/HaiTian.js, requires-body=true, tag=海天美味馆
+
+[MITM]
+hostname = cmallapi.haday.cn
