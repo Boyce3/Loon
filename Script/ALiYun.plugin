@@ -1,7 +1,7 @@
 #!name = 阿里云社区签到
 #!desc = 完成签到、点赞、分享、评论、收藏、场景、视频等每日任务。
 #!author = Leiyiyan
-#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/aliyunWeb.pngzippo.png
+#!icon = https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/aliyunWeb.png
 #!date = 2024-10-19
 
 [Script]
