@@ -60,8 +60,8 @@ DOMAIN,dl.carryz.net
 # Nanflix
 DOMAIN,nanflix.net
 # AWA影视
-DOMAIN,tv.811861.xyz
-IP-CIDR,38.58.181.218/32
+DOMAIN,emby.awatv.de
+
 # lily emby
 DOMAIN,emby.lilyya.xyz
 DOMAIN,cfemby.lilyya.xyz
