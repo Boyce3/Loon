@@ -1,4 +1,4 @@
-# 更新时间2024-10-20
+# 更新时间2024-10-21
 
 # 音乐服
 DOMAIN,music.iuii.org
@@ -75,3 +75,5 @@ DOMAIN-SUFFIX,aliz.work
 DOMAIN,jsq.mooguu.top
 # AlphaTV海外服
 DOMAIN,oversea.alphatvapp.top
+# 非越
+DOMAIN-SUFFIX,sfcj.org
