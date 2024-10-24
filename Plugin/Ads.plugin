@@ -32,7 +32,7 @@ DOMAIN, fe-static.xhscdn.com, REJECT-DROP
 # 福田e家 //czyl.foton.com.cn
 ^https:\/\/czyl\.foton\.com\.cn\/ehomes-new\/ehomesActivity\/api\/DaimlerEhome\/HomePage\/ reject-dict
 # 京东金融 //ms.jr.jd.com
-^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture reject
+^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture reject
 # 京东读书 //jdread-api.jd.com
 ^https:\/\/jdread-api\.jd\.com\/jdread\/api\/popup\?app reject-dict
 # 华图在线 //yyfapi.huatu.com
@@ -47,15 +47,15 @@ DOMAIN, fe-static.xhscdn.com, REJECT-DROP
 # 牛听听 //gateway.benewtech.cn
 ^https:\/\/gateway\.benewtech\.cn\/resources-app\/app\/startup\/prepage reject-200
 # 亲宝宝 //api.qbb6.com
-^https?:\/\/api\.qbb6\.com\/ad\/ reject
+^https:\/\/api\.qbb6\.com\/ad\/ reject
 # 瑞幸咖啡
-^https?:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/(homePage\/contactor\/modules|app\/adposNew) url reject-200
+^https:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/(homePage\/contactor\/modules|app\/adposNew) url reject-200
 # 小红书 禁用缓存 //*.xhscdn.com
 (?=xhscdn.*\.(otf|OTF|ttf|TTF|zip)) reject
 # 小米运动 //api-mifit-cn3.zepp.com
 ^https:\/\/api-mifit-cn3\.zepp\.com\/discovery\/mi\/cards\/startpage_ad reject-dict
 # 小米有品 //shopapi.io.mi.com
-^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig reject-dict
+^https:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig reject-dict
 ^https:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/reach\/resource reject-dict
 # 小熊美术 //www.xiaoxiongmeishu.com
 ^https:\/\/www\.xiaoxiongmeishu\.com\/api\/home\/v1\/config\/appInit reject-200
