@@ -5,7 +5,7 @@
 #!system = iOS, iPadOS
 #!loon_version = 3.2.1(745)
 #!icon = https://raw.githubusercontent.com/Boyce3/QuanX/main/icon/ad.png
-#!date = 2024-10-15
+#!date = 2024-10-23
 
 [Rule]
 # 哔哩哔哩
@@ -48,6 +48,8 @@ DOMAIN, fe-static.xhscdn.com, REJECT-DROP
 ^https:\/\/gateway\.benewtech\.cn\/resources-app\/app\/startup\/prepage reject-200
 # 亲宝宝 //api.qbb6.com
 ^https?:\/\/api\.qbb6\.com\/ad\/ reject
+# 瑞幸咖啡
+^https?:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/(homePage\/contactor\/modules|app\/adposNew) url reject-200
 # 小红书 禁用缓存 //*.xhscdn.com
 (?=xhscdn.*\.(otf|OTF|ttf|TTF|zip)) reject
 # 小米运动 //api-mifit-cn3.zepp.com
