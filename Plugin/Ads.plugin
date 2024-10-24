@@ -48,7 +48,7 @@ DOMAIN, fe-static.xhscdn.com, REJECT-DROP
 ^https:\/\/gateway\.benewtech\.cn\/resources-app\/app\/startup\/prepage reject-200
 # 亲宝宝 //api.qbb6.com
 ^https:\/\/api\.qbb6\.com\/ad\/ reject
-# 瑞幸咖啡
+# 瑞幸咖啡 //capi.lkcoffee.com
 ^https:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/(homePage\/contactor\/modules|app\/adposNew) url reject-200
 # 小红书 禁用缓存 //*.xhscdn.com
 (?=xhscdn.*\.(otf|OTF|ttf|TTF|zip)) reject
@@ -65,7 +65,7 @@ https:\/\/edu\.seewo\.com\/app\/api\/v1\/startPage\/latest reject-dict
 # 学习通 //learn.chaoxing.com
 ^https:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig url reject-dict
 # 作业帮 //syh.zybang.com
-^https?:\/\/syh\.zybang\.com\/com\/adx\/ reject
+^https:\/\/syh\.zybang\.com\/com\/adx\/ reject
 # 中国人保 //zgrb.epicc.com.cn
 ^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/windowsintegration\/getMessage\/v1 reject-dict
 # 中国移动
