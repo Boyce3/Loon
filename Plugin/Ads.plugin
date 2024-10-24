@@ -68,7 +68,7 @@ https:\/\/edu\.seewo\.com\/app\/api\/v1\/startPage\/latest reject-dict
 ^https:\/\/syh\.zybang\.com\/com\/adx\/ reject
 # 中国人保 //zgrb.epicc.com.cn
 ^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/windowsintegration\/getMessage\/v1 reject-dict
-# 中国移动
+# 中国移动 //client.app.coc.10086.cn
 ^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) reject
 # 湛庐阅读 //m.api.app.cheerspublishing.com
 ^https:\/\/m\.api\.app\.cheerspublishing\.com\/app\/v1\/ad\/detail url reject-dict
