@@ -70,7 +70,7 @@ DOMAIN-SUFFIX,aliz.work
 # 见手青
 DOMAIN,jsq.mooguu.top
 # AlphaTV海外服
-DOMAIN,oversea.alphatvapp.top
+DOMAIN-SUFFIX,alphatvapp.top
 # 非越
 DOMAIN-SUFFIX,sfcj.org
 # Levilde Luminia
