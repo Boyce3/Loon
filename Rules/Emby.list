@@ -1,4 +1,4 @@
-# 更新时间2024-10-23
+# 更新时间2024-10-25
 
 # 音乐服
 DOMAIN,music.iuii.org
@@ -61,11 +61,8 @@ DOMAIN,dl.carryz.net
 DOMAIN,nanflix.net
 # AWA影视
 DOMAIN,emby.awatv.de
-# lily emby
-DOMAIN,emby.lilyya.xyz
-DOMAIN,cfemby.lilyya.xyz
-DOMAIN,cfemby.lilyya.xyz
-DOMAIN,embyhk.lilyya.xyz
+# lily
+DOMAIN-SUFFIX,lilyya.xyz
 # 西瓜
 DOMAIN-SUFFIX,1024.name
 # hka
